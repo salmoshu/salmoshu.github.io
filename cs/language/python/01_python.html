@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>python语法 | Salmos&#39; blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/doghead.jpg">
+    <meta name="description" content="Recording ideas">
+    
+    <link rel="preload" href="/assets/css/0.styles.b4c82722.css" as="style"><link rel="preload" href="/assets/js/app.d3343acc.js" as="script"><link rel="preload" href="/assets/js/2.47607b1e.js" as="script"><link rel="preload" href="/assets/js/22.d1ffdbf0.js" as="script"><link rel="prefetch" href="/assets/js/10.10ca6d15.js"><link rel="prefetch" href="/assets/js/11.84b9dfd0.js"><link rel="prefetch" href="/assets/js/12.df628214.js"><link rel="prefetch" href="/assets/js/13.9208e500.js"><link rel="prefetch" href="/assets/js/14.086ab947.js"><link rel="prefetch" href="/assets/js/15.04298856.js"><link rel="prefetch" href="/assets/js/16.50f87919.js"><link rel="prefetch" href="/assets/js/17.33fb4f36.js"><link rel="prefetch" href="/assets/js/18.91cecb92.js"><link rel="prefetch" href="/assets/js/19.adae19c5.js"><link rel="prefetch" href="/assets/js/20.d58f40cd.js"><link rel="prefetch" href="/assets/js/21.a222f5bb.js"><link rel="prefetch" href="/assets/js/23.eed405c4.js"><link rel="prefetch" href="/assets/js/24.5303985a.js"><link rel="prefetch" href="/assets/js/25.b74d21a3.js"><link rel="prefetch" href="/assets/js/26.7dc5bae9.js"><link rel="prefetch" href="/assets/js/27.c6cf1e56.js"><link rel="prefetch" href="/assets/js/28.d1a326b1.js"><link rel="prefetch" href="/assets/js/29.a1c5647e.js"><link rel="prefetch" href="/assets/js/3.7294e18a.js"><link rel="prefetch" href="/assets/js/30.bb56388d.js"><link rel="prefetch" href="/assets/js/31.ddf165e3.js"><link rel="prefetch" href="/assets/js/32.32c4dada.js"><link rel="prefetch" href="/assets/js/33.113c79ce.js"><link rel="prefetch" href="/assets/js/34.a26b8f69.js"><link rel="prefetch" href="/assets/js/35.e9c87726.js"><link rel="prefetch" href="/assets/js/36.2e57a0b5.js"><link rel="prefetch" href="/assets/js/37.3254eb65.js"><link rel="prefetch" href="/assets/js/38.ae9398fd.js"><link rel="prefetch" href="/assets/js/39.c86545ad.js"><link rel="prefetch" href="/assets/js/4.14a07ca1.js"><link rel="prefetch" href="/assets/js/40.39930a85.js"><link rel="prefetch" href="/assets/js/41.665cebcf.js"><link rel="prefetch" href="/assets/js/42.d162db74.js"><link rel="prefetch" href="/assets/js/43.6303e80f.js"><link rel="prefetch" href="/assets/js/44.0d20ca46.js"><link rel="prefetch" href="/assets/js/45.83718b26.js"><link rel="prefetch" href="/assets/js/46.387e0df6.js"><link rel="prefetch" href="/assets/js/47.1e6d6ba7.js"><link rel="prefetch" href="/assets/js/48.2c5cb5b3.js"><link rel="prefetch" href="/assets/js/49.c0e241fb.js"><link rel="prefetch" href="/assets/js/5.eb8092ae.js"><link rel="prefetch" href="/assets/js/50.38565001.js"><link rel="prefetch" href="/assets/js/51.3d8a7288.js"><link rel="prefetch" href="/assets/js/52.afb6f891.js"><link rel="prefetch" href="/assets/js/53.4bd52b52.js"><link rel="prefetch" href="/assets/js/54.36922084.js"><link rel="prefetch" href="/assets/js/55.7b1d0e70.js"><link rel="prefetch" href="/assets/js/56.936d0912.js"><link rel="prefetch" href="/assets/js/57.2b6e0a3e.js"><link rel="prefetch" href="/assets/js/58.135d2429.js"><link rel="prefetch" href="/assets/js/59.cf30b072.js"><link rel="prefetch" href="/assets/js/6.93eb6955.js"><link rel="prefetch" href="/assets/js/60.94174257.js"><link rel="prefetch" href="/assets/js/61.8b5a84ab.js"><link rel="prefetch" href="/assets/js/62.728cd46e.js"><link rel="prefetch" href="/assets/js/63.a1698d87.js"><link rel="prefetch" href="/assets/js/64.76991724.js"><link rel="prefetch" href="/assets/js/65.9c992891.js"><link rel="prefetch" href="/assets/js/66.4c61ed6c.js"><link rel="prefetch" href="/assets/js/7.206c585a.js"><link rel="prefetch" href="/assets/js/8.d05136e2.js"><link rel="prefetch" href="/assets/js/9.e7c41d50.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b4c82722.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/doghead.jpg" alt="Salmos' blog" class="logo"> <span class="site-name can-hide">Salmos' blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/algorithm/control/" class="nav-link">
+  Control Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/algorithm/B/" class="nav-link">
+  算法B
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="平台与软件" class="dropdown-title"><span class="title">平台与软件</span> <span class="arrow down"></span></button> <button type="button" aria-label="平台与软件" class="mobile-dropdown-title"><span class="title">平台与软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          嵌入式开发板
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/nano/" class="nav-link">
+  Jetson Nano
+</a></li><li class="dropdown-subitem"><a href="/platform/stm32/" class="nav-link">
+  STM32
+</a></li></ul></li><li class="dropdown-item"><h4>
+          操作系统与软件平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/platform/windows/" class="nav-link">
+  Windows
+</a></li><li class="dropdown-subitem"><a href="/platform/ros1/" class="nav-link">
+  ROS1
+</a></li><li class="dropdown-subitem"><a href="/platform/ros2/" class="nav-link">
+  ROS2
+</a></li></ul></li><li class="dropdown-item"><h4>
+          仿真平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/simulation/physics/" class="nav-link">
+  physics
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/gazebo/" class="nav-link">
+  gazebo
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/unity/" class="nav-link">
+  unity
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Sensors" class="dropdown-title"><span class="title">Sensors</span> <span class="arrow down"></span></button> <button type="button" aria-label="Sensors" class="mobile-dropdown-title"><span class="title">Sensors</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sensors/imu/" class="nav-link">
+  IMU
+</a></li><li class="dropdown-item"><!----> <a href="/sensors/gps/" class="nav-link">
+  GPS
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GUI" class="dropdown-title"><span class="title">GUI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GUI" class="mobile-dropdown-title"><span class="title">GUI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Web
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/gui/web/vuepress/" class="nav-link">
+  VuePress
+</a></li><li class="dropdown-subitem"><a href="/gui/web/layui/" class="nav-link">
+  Layui
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          webapp
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/webapp/tornado/" class="nav-link">
+  tornado
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CS" class="dropdown-title"><span class="title">CS</span> <span class="arrow down"></span></button> <button type="button" aria-label="CS" class="mobile-dropdown-title"><span class="title">CS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          language
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/language/python/" class="nav-link router-link-active">
+  python
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c/" class="nav-link">
+  c
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c++/" class="nav-link">
+  c++
+</a></li><li class="dropdown-subitem"><a href="/cs/language/javascript/" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          network
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/network/base/" class="nav-link">
+  base
+</a></li></ul></li><li class="dropdown-item"><h4>
+          os
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/os/base/" class="nav-link">
+  base
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/editor/" class="nav-link">
+  editor
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Pieces" class="dropdown-title"><span class="title">Pieces</span> <span class="arrow down"></span></button> <button type="button" aria-label="Pieces" class="mobile-dropdown-title"><span class="title">Pieces</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pieces/questions/" class="nav-link">
+  Questions
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/thinking/" class="nav-link">
+  Thinking
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/learning/" class="nav-link">
+  Learning
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/reading/" class="nav-link">
+  Reading
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/algorithm/control/" class="nav-link">
+  Control Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/algorithm/B/" class="nav-link">
+  算法B
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="平台与软件" class="dropdown-title"><span class="title">平台与软件</span> <span class="arrow down"></span></button> <button type="button" aria-label="平台与软件" class="mobile-dropdown-title"><span class="title">平台与软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          嵌入式开发板
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/nano/" class="nav-link">
+  Jetson Nano
+</a></li><li class="dropdown-subitem"><a href="/platform/stm32/" class="nav-link">
+  STM32
+</a></li></ul></li><li class="dropdown-item"><h4>
+          操作系统与软件平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/platform/windows/" class="nav-link">
+  Windows
+</a></li><li class="dropdown-subitem"><a href="/platform/ros1/" class="nav-link">
+  ROS1
+</a></li><li class="dropdown-subitem"><a href="/platform/ros2/" class="nav-link">
+  ROS2
+</a></li></ul></li><li class="dropdown-item"><h4>
+          仿真平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/simulation/physics/" class="nav-link">
+  physics
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/gazebo/" class="nav-link">
+  gazebo
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/unity/" class="nav-link">
+  unity
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Sensors" class="dropdown-title"><span class="title">Sensors</span> <span class="arrow down"></span></button> <button type="button" aria-label="Sensors" class="mobile-dropdown-title"><span class="title">Sensors</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sensors/imu/" class="nav-link">
+  IMU
+</a></li><li class="dropdown-item"><!----> <a href="/sensors/gps/" class="nav-link">
+  GPS
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GUI" class="dropdown-title"><span class="title">GUI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GUI" class="mobile-dropdown-title"><span class="title">GUI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Web
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/gui/web/vuepress/" class="nav-link">
+  VuePress
+</a></li><li class="dropdown-subitem"><a href="/gui/web/layui/" class="nav-link">
+  Layui
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          webapp
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/webapp/tornado/" class="nav-link">
+  tornado
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CS" class="dropdown-title"><span class="title">CS</span> <span class="arrow down"></span></button> <button type="button" aria-label="CS" class="mobile-dropdown-title"><span class="title">CS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          language
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/language/python/" class="nav-link router-link-active">
+  python
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c/" class="nav-link">
+  c
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c++/" class="nav-link">
+  c++
+</a></li><li class="dropdown-subitem"><a href="/cs/language/javascript/" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          network
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/network/base/" class="nav-link">
+  base
+</a></li></ul></li><li class="dropdown-item"><h4>
+          os
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/os/base/" class="nav-link">
+  base
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/editor/" class="nav-link">
+  editor
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Pieces" class="dropdown-title"><span class="title">Pieces</span> <span class="arrow down"></span></button> <button type="button" aria-label="Pieces" class="mobile-dropdown-title"><span class="title">Pieces</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pieces/questions/" class="nav-link">
+  Questions
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/thinking/" class="nav-link">
+  Thinking
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/learning/" class="nav-link">
+  Learning
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/reading/" class="nav-link">
+  Reading
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/cs/language/python/" aria-current="page" class="sidebar-link">python</a></li><li><a href="/cs/language/python/01_python.html" aria-current="page" class="active sidebar-link">python语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/cs/language/python/01_python.html#_1-函数注释" class="sidebar-link">1. 函数注释</a></li><li class="sidebar-sub-header"><a href="/cs/language/python/01_python.html#_2-getattr-函数用于返回一个对象属性值。" class="sidebar-link">2. getattr() 函数用于返回一个对象属性值。</a></li><li class="sidebar-sub-header"><a href="/cs/language/python/01_python.html#_3-获取当前路径" class="sidebar-link">3. 获取当前路径</a></li><li class="sidebar-sub-header"><a href="/cs/language/python/01_python.html#_4-pip工具安装" class="sidebar-link">4. pip工具安装</a></li></ul></li><li><a href="/cs/language/python/02_issues.html" class="sidebar-link">Issues</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/cs/language/python/02_issues.html#_1-attributeerror-str-object-has-no-attribute-fromhex" class="sidebar-link">1. AttributeError: 'str' object has no attribute 'fromhex'</a></li></ul></li><li><a href="/cs/language/python/03_numpy.html" class="sidebar-link">numpy</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="python语法"><a href="#python语法" class="header-anchor">#</a> python语法</h1> <h2 id="_1-函数注释"><a href="#_1-函数注释" class="header-anchor">#</a> 1. 函数注释</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">def</span> <span class="token function">fetch_bigtable_rows</span><span class="token punctuation">(</span>big_table<span class="token punctuation">,</span> keys<span class="token punctuation">,</span> other_silly_variable<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token triple-quoted-string string">&quot;&quot;&quot;Fetches rows from a Bigtable.
+
+    Retrieves rows pertaining to the given keys from the Table instance
+    represented by big_table.  Silly things may happen if
+    other_silly_variable is not None.
+
+    Args:
+        big_table: An open Bigtable Table instance.
+        keys: A sequence of strings representing the key of each table row
+            to fetch.
+        other_silly_variable: Another optional variable, that has a much
+            longer name than the other args, and which does nothing.
+
+    Returns:
+        A dict mapping keys to the corresponding table row data
+        fetched. Each row is represented as a tuple of strings. For
+        example:
+
+        {'Serak': ('Rigel VII', 'Preparer'),
+         'Zim': ('Irk', 'Invader'),
+         'Lrrr': ('Omicron Persei 8', 'Emperor')}
+
+        If a key from the keys argument is missing from the dictionary,
+        then that row was not found in the table.
+
+    Raises:
+        IOError: An error occurred accessing the bigtable.Table object.
+    &quot;&quot;&quot;</span>
+    <span class="token keyword">pass</span>
+</code></pre></div><p>参考链接：https://www.jianshu.com/p/4facd9ff2fcd</p> <h2 id="_2-getattr-函数用于返回一个对象属性值。"><a href="#_2-getattr-函数用于返回一个对象属性值。" class="header-anchor">#</a> 2. <strong>getattr()</strong> 函数用于返回一个对象属性值。</h2> <div class="language-python extra-class"><pre class="language-python"><code><span class="token builtin">getattr</span><span class="token punctuation">(</span><span class="token builtin">object</span><span class="token punctuation">,</span> name<span class="token punctuation">[</span><span class="token punctuation">,</span> default<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>class A<span class="token punctuation">(</span>object<span class="token punctuation">)</span>:
+<span class="token punctuation">..</span>.     bar <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token punctuation">..</span>. 
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> a <span class="token operator">=</span> A<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> getattr<span class="token punctuation">(</span>a, <span class="token string">'bar'</span><span class="token punctuation">)</span>        <span class="token comment"># 获取属性 bar 值</span>
+<span class="token number">1</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> getattr<span class="token punctuation">(</span>a, <span class="token string">'bar2'</span><span class="token punctuation">)</span>       <span class="token comment"># 属性 bar2 不存在，触发异常</span>
+Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span>:
+  File <span class="token string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="token number">1</span>, <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
+AttributeError: <span class="token string">'A'</span> object has no attribute <span class="token string">'bar2'</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> getattr<span class="token punctuation">(</span>a, <span class="token string">'bar2'</span>, <span class="token number">3</span><span class="token punctuation">)</span>    <span class="token comment"># 属性 bar2 不存在，但设置了默认值</span>
+<span class="token number">3</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>
+</code></pre></div><h2 id="_3-获取当前路径"><a href="#_3-获取当前路径" class="header-anchor">#</a> 3. 获取当前路径</h2> <h3 id="要点"><a href="#要点" class="header-anchor">#</a> 要点</h3> <p>利用os获取当前路径：</p> <div class="language-python extra-class"><pre class="language-python"><code>curdir <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>__file__<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'/'</span>
+</code></pre></div><h3 id="明细"><a href="#明细" class="header-anchor">#</a> 明细</h3> <p>在使用python的时候总会遇到路径切换的使用情况，如想从文件夹test下的test.py调用data文件夹下的data.txt文件（参考<a href="https://blog.csdn.net/leorx01/article/details/71141643" target="_blank" rel="noopener noreferrer">python获取当前目录路径和上一级路径<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>）：</p> <div class="language-shell extra-class"><pre class="language-shell"><code>└── folder
+    ├── data
+    │   └── data.txt
+    └── <span class="token builtin class-name">test</span>
+        └── test.py
+</code></pre></div><p>一种方法可以在data文件下加入__init__.py 然后在test.py 中import data 就可以调用data.txt文件；</p> <p>另一种方法可以借助python os模块的方法对目录结构进行操作，下面就说一下这种方式的使用：</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> os
+
+<span class="token keyword">print</span> <span class="token string">'***获取当前目录***'</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>getcwd<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>__file__<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span> <span class="token string">'***获取上级目录***'</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>__file__<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>dirname<span class="token punctuation">(</span>os<span class="token punctuation">.</span>getcwd<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>os<span class="token punctuation">.</span>getcwd<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">&quot;..&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span> <span class="token string">'***获取上上级目录***'</span>
+<span class="token keyword">print</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>abspath<span class="token punctuation">(</span>os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>join<span class="token punctuation">(</span>os<span class="token punctuation">.</span>getcwd<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">&quot;../..&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>输出结果为：</p> <div class="language-shell extra-class"><pre class="language-shell"><code>***获取当前目录***
+/workspace/demo/folder/test
+/workspace/demo/folder/test
+
+***获取上级目录***
+/workspace/demo/folder
+/workspace/demo/folder
+/workspace/demo/folder
+
+***获取上上级目录***
+/workspace/demo
+</code></pre></div><h2 id="_4-pip工具安装"><a href="#_4-pip工具安装" class="header-anchor">#</a> 4. pip工具安装</h2> <p><strong>1､安装setup-tools</strong></p> <p><strong>下载地址</strong>：https://pypi.python.org/pypi/setuptools</p> <p>下载安装包，可以使用wget命令下载。下载及安装命令如下，</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">wget</span> https://pypi.python.org/packages/45/29/8814bf414e7cd1031e1a3c8a4169218376e284ea2553cc0822a6ea1c2d78/setuptools-36.6.0.zip<span class="token comment">#md5=74663b15117d9a2cc5295d76011e6fd1</span>
+<span class="token function">unzip</span> setuptools-36.6.0.zip 
+<span class="token builtin class-name">cd</span> setuptools-36.6.0
+python setup.py <span class="token function">install</span>
+</code></pre></div><p><strong>2､Python2安装pip</strong></p> <p><strong>下载地址</strong>：https://pypi.python.org/pypi/pip</p> <p>可以使用<code>wget</code>命令下载。下载及安装命令如下，</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">wget</span> https://pypi.python.org/packages/11/b6/abcb525026a4be042b486df43905d6893fb04f05aac21c32c638e939e447/pip-9.0.1.tar.gz<span class="token comment">#md5=35f01da33009719497f01a4ba69d63c9</span>
+<span class="token function">tar</span> -zxvf pip-9.0.1.tar.gz
+<span class="token builtin class-name">cd</span> pip-9.0.1
+python setup.py <span class="token function">install</span>
+</code></pre></div><p><strong>3､创建pip软链接</strong></p> <p>如果上面执行完成，可以正常使用<code>pip</code>命令，也可以不执行下面命令创建软链接。</p> <p>进入到<code>/usr/local/python27/bin</code>目录，如果上面安装没报错的话，就可以看到<code>easy_install</code>和<code>pip</code>命令，创建命令如下，</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">rm</span> -rf /usr/bin/easy_install* /usr/bin/pip
+<span class="token function">ln</span> -s /usr/local/python27/bin/pip2.7 /usr/bin/pip
+<span class="token function">ln</span> -s /usr/local/python27/bin/pip2.7 /usr/bin/pip27
+<span class="token function">ln</span> -s /usr/local/python27/bin/pip2.7 /usr/bin/pip2.7
+<span class="token function">ln</span> -s /usr/local/python27/bin/easy_install /usr/bin/easy_install
+<span class="token function">ln</span> -s /usr/local/python27/bin/easy_install /usr/bin/easy_install27
+<span class="token function">ln</span> -s /usr/local/python27/bin/easy_install /usr/bin/easy_install2.7
+<span class="token comment"># 验证操作是否成功</span>
+pip --version
+pip <span class="token number">9.0</span>.1 from /usr/local/python27/lib/python2.7/site-packages/pip-9.0.1-py2.7.egg <span class="token punctuation">(</span>python <span class="token number">2.7</span><span class="token punctuation">)</span>
+easy_install --version
+setuptools <span class="token number">36.5</span>.0 from /usr/local/python27/lib/python2.7/site-packages/setuptools-36.5.0-py2.7.egg <span class="token punctuation">(</span>Python <span class="token number">2.7</span><span class="token punctuation">)</span>
+</code></pre></div><p>参考：https://www.cjavapy.com/article/826/</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">1/25/2022, 7:54:53 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/cs/language/python/" class="prev router-link-active">
+        python
+      </a></span> <span class="next"><a href="/cs/language/python/02_issues.html">
+        Issues
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.d3343acc.js" defer></script><script src="/assets/js/2.47607b1e.js" defer></script><script src="/assets/js/22.d1ffdbf0.js" defer></script>
+  </body>
+</html>

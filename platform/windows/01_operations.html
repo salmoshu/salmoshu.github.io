@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>二. Ubuntu常用命令与操作 | Salmos&#39; blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/doghead.jpg">
+    <meta name="description" content="Recording ideas">
+    
+    <link rel="preload" href="/assets/css/0.styles.b4c82722.css" as="style"><link rel="preload" href="/assets/js/app.d3343acc.js" as="script"><link rel="preload" href="/assets/js/2.47607b1e.js" as="script"><link rel="preload" href="/assets/js/58.135d2429.js" as="script"><link rel="prefetch" href="/assets/js/10.10ca6d15.js"><link rel="prefetch" href="/assets/js/11.84b9dfd0.js"><link rel="prefetch" href="/assets/js/12.df628214.js"><link rel="prefetch" href="/assets/js/13.9208e500.js"><link rel="prefetch" href="/assets/js/14.086ab947.js"><link rel="prefetch" href="/assets/js/15.04298856.js"><link rel="prefetch" href="/assets/js/16.50f87919.js"><link rel="prefetch" href="/assets/js/17.33fb4f36.js"><link rel="prefetch" href="/assets/js/18.91cecb92.js"><link rel="prefetch" href="/assets/js/19.adae19c5.js"><link rel="prefetch" href="/assets/js/20.d58f40cd.js"><link rel="prefetch" href="/assets/js/21.a222f5bb.js"><link rel="prefetch" href="/assets/js/22.d1ffdbf0.js"><link rel="prefetch" href="/assets/js/23.eed405c4.js"><link rel="prefetch" href="/assets/js/24.5303985a.js"><link rel="prefetch" href="/assets/js/25.b74d21a3.js"><link rel="prefetch" href="/assets/js/26.7dc5bae9.js"><link rel="prefetch" href="/assets/js/27.c6cf1e56.js"><link rel="prefetch" href="/assets/js/28.d1a326b1.js"><link rel="prefetch" href="/assets/js/29.a1c5647e.js"><link rel="prefetch" href="/assets/js/3.7294e18a.js"><link rel="prefetch" href="/assets/js/30.bb56388d.js"><link rel="prefetch" href="/assets/js/31.ddf165e3.js"><link rel="prefetch" href="/assets/js/32.32c4dada.js"><link rel="prefetch" href="/assets/js/33.113c79ce.js"><link rel="prefetch" href="/assets/js/34.a26b8f69.js"><link rel="prefetch" href="/assets/js/35.e9c87726.js"><link rel="prefetch" href="/assets/js/36.2e57a0b5.js"><link rel="prefetch" href="/assets/js/37.3254eb65.js"><link rel="prefetch" href="/assets/js/38.ae9398fd.js"><link rel="prefetch" href="/assets/js/39.c86545ad.js"><link rel="prefetch" href="/assets/js/4.14a07ca1.js"><link rel="prefetch" href="/assets/js/40.39930a85.js"><link rel="prefetch" href="/assets/js/41.665cebcf.js"><link rel="prefetch" href="/assets/js/42.d162db74.js"><link rel="prefetch" href="/assets/js/43.6303e80f.js"><link rel="prefetch" href="/assets/js/44.0d20ca46.js"><link rel="prefetch" href="/assets/js/45.83718b26.js"><link rel="prefetch" href="/assets/js/46.387e0df6.js"><link rel="prefetch" href="/assets/js/47.1e6d6ba7.js"><link rel="prefetch" href="/assets/js/48.2c5cb5b3.js"><link rel="prefetch" href="/assets/js/49.c0e241fb.js"><link rel="prefetch" href="/assets/js/5.eb8092ae.js"><link rel="prefetch" href="/assets/js/50.38565001.js"><link rel="prefetch" href="/assets/js/51.3d8a7288.js"><link rel="prefetch" href="/assets/js/52.afb6f891.js"><link rel="prefetch" href="/assets/js/53.4bd52b52.js"><link rel="prefetch" href="/assets/js/54.36922084.js"><link rel="prefetch" href="/assets/js/55.7b1d0e70.js"><link rel="prefetch" href="/assets/js/56.936d0912.js"><link rel="prefetch" href="/assets/js/57.2b6e0a3e.js"><link rel="prefetch" href="/assets/js/59.cf30b072.js"><link rel="prefetch" href="/assets/js/6.93eb6955.js"><link rel="prefetch" href="/assets/js/60.94174257.js"><link rel="prefetch" href="/assets/js/61.8b5a84ab.js"><link rel="prefetch" href="/assets/js/62.728cd46e.js"><link rel="prefetch" href="/assets/js/63.a1698d87.js"><link rel="prefetch" href="/assets/js/64.76991724.js"><link rel="prefetch" href="/assets/js/65.9c992891.js"><link rel="prefetch" href="/assets/js/66.4c61ed6c.js"><link rel="prefetch" href="/assets/js/7.206c585a.js"><link rel="prefetch" href="/assets/js/8.d05136e2.js"><link rel="prefetch" href="/assets/js/9.e7c41d50.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b4c82722.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/doghead.jpg" alt="Salmos' blog" class="logo"> <span class="site-name can-hide">Salmos' blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/algorithm/control/" class="nav-link">
+  Control Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/algorithm/B/" class="nav-link">
+  算法B
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="平台与软件" class="dropdown-title"><span class="title">平台与软件</span> <span class="arrow down"></span></button> <button type="button" aria-label="平台与软件" class="mobile-dropdown-title"><span class="title">平台与软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          嵌入式开发板
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/nano/" class="nav-link">
+  Jetson Nano
+</a></li><li class="dropdown-subitem"><a href="/platform/stm32/" class="nav-link">
+  STM32
+</a></li></ul></li><li class="dropdown-item"><h4>
+          操作系统与软件平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/platform/windows/" class="nav-link router-link-active">
+  Windows
+</a></li><li class="dropdown-subitem"><a href="/platform/ros1/" class="nav-link">
+  ROS1
+</a></li><li class="dropdown-subitem"><a href="/platform/ros2/" class="nav-link">
+  ROS2
+</a></li></ul></li><li class="dropdown-item"><h4>
+          仿真平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/simulation/physics/" class="nav-link">
+  physics
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/gazebo/" class="nav-link">
+  gazebo
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/unity/" class="nav-link">
+  unity
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Sensors" class="dropdown-title"><span class="title">Sensors</span> <span class="arrow down"></span></button> <button type="button" aria-label="Sensors" class="mobile-dropdown-title"><span class="title">Sensors</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sensors/imu/" class="nav-link">
+  IMU
+</a></li><li class="dropdown-item"><!----> <a href="/sensors/gps/" class="nav-link">
+  GPS
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GUI" class="dropdown-title"><span class="title">GUI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GUI" class="mobile-dropdown-title"><span class="title">GUI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Web
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/gui/web/vuepress/" class="nav-link">
+  VuePress
+</a></li><li class="dropdown-subitem"><a href="/gui/web/layui/" class="nav-link">
+  Layui
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          webapp
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/webapp/tornado/" class="nav-link">
+  tornado
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CS" class="dropdown-title"><span class="title">CS</span> <span class="arrow down"></span></button> <button type="button" aria-label="CS" class="mobile-dropdown-title"><span class="title">CS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          language
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/language/python/" class="nav-link">
+  python
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c/" class="nav-link">
+  c
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c++/" class="nav-link">
+  c++
+</a></li><li class="dropdown-subitem"><a href="/cs/language/javascript/" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          network
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/network/base/" class="nav-link">
+  base
+</a></li></ul></li><li class="dropdown-item"><h4>
+          os
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/os/base/" class="nav-link">
+  base
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/editor/" class="nav-link">
+  editor
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Pieces" class="dropdown-title"><span class="title">Pieces</span> <span class="arrow down"></span></button> <button type="button" aria-label="Pieces" class="mobile-dropdown-title"><span class="title">Pieces</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pieces/questions/" class="nav-link">
+  Questions
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/thinking/" class="nav-link">
+  Thinking
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/learning/" class="nav-link">
+  Learning
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/reading/" class="nav-link">
+  Reading
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/algorithm/control/" class="nav-link">
+  Control Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/algorithm/B/" class="nav-link">
+  算法B
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="平台与软件" class="dropdown-title"><span class="title">平台与软件</span> <span class="arrow down"></span></button> <button type="button" aria-label="平台与软件" class="mobile-dropdown-title"><span class="title">平台与软件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          嵌入式开发板
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/nano/" class="nav-link">
+  Jetson Nano
+</a></li><li class="dropdown-subitem"><a href="/platform/stm32/" class="nav-link">
+  STM32
+</a></li></ul></li><li class="dropdown-item"><h4>
+          操作系统与软件平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/platform/windows/" class="nav-link router-link-active">
+  Windows
+</a></li><li class="dropdown-subitem"><a href="/platform/ros1/" class="nav-link">
+  ROS1
+</a></li><li class="dropdown-subitem"><a href="/platform/ros2/" class="nav-link">
+  ROS2
+</a></li></ul></li><li class="dropdown-item"><h4>
+          仿真平台
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/platform/simulation/physics/" class="nav-link">
+  physics
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/gazebo/" class="nav-link">
+  gazebo
+</a></li><li class="dropdown-subitem"><a href="/platform/simulation/unity/" class="nav-link">
+  unity
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Sensors" class="dropdown-title"><span class="title">Sensors</span> <span class="arrow down"></span></button> <button type="button" aria-label="Sensors" class="mobile-dropdown-title"><span class="title">Sensors</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/sensors/imu/" class="nav-link">
+  IMU
+</a></li><li class="dropdown-item"><!----> <a href="/sensors/gps/" class="nav-link">
+  GPS
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="GUI" class="dropdown-title"><span class="title">GUI</span> <span class="arrow down"></span></button> <button type="button" aria-label="GUI" class="mobile-dropdown-title"><span class="title">GUI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Web
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/gui/web/vuepress/" class="nav-link">
+  VuePress
+</a></li><li class="dropdown-subitem"><a href="/gui/web/layui/" class="nav-link">
+  Layui
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          webapp
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/webapp/tornado/" class="nav-link">
+  tornado
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CS" class="dropdown-title"><span class="title">CS</span> <span class="arrow down"></span></button> <button type="button" aria-label="CS" class="mobile-dropdown-title"><span class="title">CS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          language
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/language/python/" class="nav-link">
+  python
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c/" class="nav-link">
+  c
+</a></li><li class="dropdown-subitem"><a href="/cs/language/c++/" class="nav-link">
+  c++
+</a></li><li class="dropdown-subitem"><a href="/cs/language/javascript/" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          network
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/network/base/" class="nav-link">
+  base
+</a></li></ul></li><li class="dropdown-item"><h4>
+          os
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/cs/os/base/" class="nav-link">
+  base
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/editor/" class="nav-link">
+  editor
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Pieces" class="dropdown-title"><span class="title">Pieces</span> <span class="arrow down"></span></button> <button type="button" aria-label="Pieces" class="mobile-dropdown-title"><span class="title">Pieces</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pieces/questions/" class="nav-link">
+  Questions
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/thinking/" class="nav-link">
+  Thinking
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/learning/" class="nav-link">
+  Learning
+</a></li><li class="dropdown-item"><!----> <a href="/pieces/reading/" class="nav-link">
+  Reading
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/platform/windows/" aria-current="page" class="sidebar-link">Windows</a></li><li><a href="/platform/windows/01_operations.html" aria-current="page" class="active sidebar-link">二. Ubuntu常用命令与操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/platform/windows/01_operations.html#_1-windows下配置anaconda环境变量" class="sidebar-link">1. Windows下配置Anaconda环境变量</a></li></ul></li><li><a href="/platform/windows/02_issues.html" class="sidebar-link">三. Issues</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/platform/windows/02_issues.html#_1-windows-cmd报错-yarn-无法加载文件c-users-admin-appdata-roaming-npm-yarn-ps1-因为在此系统因为在此系统上禁止运行脚本。" class="sidebar-link">1. [Windows cmd报错]yarn : 无法加载文件C:\Users\Admin\AppData\Roaming\npm\yarn.ps1,因为在此系统因为在此系统上禁止运行脚本。</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="二-ubuntu常用命令与操作"><a href="#二-ubuntu常用命令与操作" class="header-anchor">#</a> 二. Ubuntu常用命令与操作</h1> <h2 id="_1-windows下配置anaconda环境变量"><a href="#_1-windows下配置anaconda环境变量" class="header-anchor">#</a> 1. Windows下配置Anaconda环境变量</h2> <h4 id="路径如下"><a href="#路径如下" class="header-anchor">#</a> 路径如下：</h4> <div class="language-shell extra-class"><pre class="language-shell"><code>D:<span class="token punctuation">\</span>Anaconda3 <span class="token comment"># python路径</span>
+D:<span class="token punctuation">\</span>Anaconda3<span class="token punctuation">\</span>Scripts
+D:<span class="token punctuation">\</span>Anaconda3<span class="token punctuation">\</span>Library<span class="token punctuation">\</span>bin
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">1/24/2022, 7:48:31 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/platform/windows/" class="prev router-link-active">
+        Windows
+      </a></span> <span class="next"><a href="/platform/windows/02_issues.html">
+        三. Issues
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.d3343acc.js" defer></script><script src="/assets/js/2.47607b1e.js" defer></script><script src="/assets/js/58.135d2429.js" defer></script>
+  </body>
+</html>
