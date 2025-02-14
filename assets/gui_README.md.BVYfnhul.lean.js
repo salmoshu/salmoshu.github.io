@@ -1,1 +1,0 @@
-import{_ as t,c as a,j as r,o}from"./chunks/framework.D5XSuxOt.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"gui/README.md","filePath":"gui/README.md"}'),s={name:"gui/README.md"};function n(i,e,c,p,d,l){return o(),a("div",null,e[0]||(e[0]=[r("p",null,"交互",-1)]))}const E=t(s,[["render",n]]);export{u as __pageData,E as default};
